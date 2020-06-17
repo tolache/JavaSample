@@ -1,21 +1,12 @@
 package com.example.helloworld;
 
+import static com.example.helloworld.Greetings.*;
+
 public class HelloWorld
 {
     public static void main(String[] args)
     {
         sayHello();
-        sayHi();
-    }
-
-    @Deprecated
-    private static void sayHello()
-    {
-        System.out.println("Hello, World!");
-    }
-
-    private static void sayHi()
-    {
-        System.out.println("Hi, World 2!");
+        System.out.println(sayHi());
     }
 }
