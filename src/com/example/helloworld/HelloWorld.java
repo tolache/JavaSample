@@ -16,6 +16,6 @@ public class HelloWorld
 
     private static void sayHi()
     {
-        System.out.println("Hi, World!");
+        System.out.println("Hi, World 2!");
     }
 }
